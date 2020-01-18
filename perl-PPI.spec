@@ -7,7 +7,7 @@
 
 Name:           perl-PPI
 Version:        1.215
-Release:        11%{?dist}
+Release:        12%{?dist}
 Summary:        Parse, Analyze and Manipulate Perl
 Group:          Development/Libraries
 License:        GPL+ or Artistic
@@ -114,6 +114,9 @@ make test TEST_FILES="xt/*.t" RELEASE_TESTING=1
 %{_mandir}/man3/PPI*.3pm*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.215-12
+- Mass rebuild 2013-12-27
+
 * Wed Jul 31 2013 Petr Pisar <ppisar@redhat.com> - 1.215-11
 - Specify all dependencies
 
